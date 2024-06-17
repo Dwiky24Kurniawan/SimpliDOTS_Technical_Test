@@ -3,7 +3,7 @@ import homePage from "../../pageobjects/homePage";
 import loginPage from "../../pageobjects/loginPage";
 import moviePage from "../../pageobjects/moviePage";
 import profilePage from "../../pageobjects/profilePage";
-import dataLogin from "../../datalogin.json";
+import dataLogin from "../../fixtures/datalogin.json";
 
 Given("I am logged in", () => {
   cy.visit(Cypress.env("links").live)

@@ -2,7 +2,7 @@ import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 import homePage from "../../pageobjects/homePage";
 import loginPage from "../../pageobjects/loginPage";
 import moviePage from "../../pageobjects/moviePage";
-import dataLogin from "../../datalogin.json";
+import dataLogin from "../../fixtures/datalogin.json";
 
 Given("I am logged in", () => {
   cy.visit(Cypress.env("links").live)
