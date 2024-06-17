@@ -19,4 +19,4 @@ Kriteria Wajib :
 
 Skenario pengujian dalam format Gherkin ada pada setiap file .feature
 
-Untuk mengubah username dan password, cukup ubah pada file : dataLogin.json
+Untuk mengubah username dan password, cukup ubah pada file : cypress/fixtures/dataLogin.json
