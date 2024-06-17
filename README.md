@@ -15,7 +15,7 @@ Kriteria Wajib :
   
 - g. User bisa meremove semua movie dari daftar favorite movies di favorite list >> done : 6_remove_all_movies_from_favorite_list.feature
   
-- h. Regresi testing >> done : 7_regression_testing.feature
+- h. Regression testing >> done : 7_regression_testing.feature
 
 Skenario pengujian dalam format Gherkin ada pada setiap file .feature
 
